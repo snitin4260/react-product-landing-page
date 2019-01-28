@@ -1,0 +1,43 @@
+.form-section {
+  margin-bottom: 4rem;
+  font-family: var(--font-open-sans);
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 280px;
+}
+
+.form-container h3 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.form-container input[type="email"] {
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 300px;
+  max-width: 100%;
+  border: 1px solid var(--header-bg-color);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form .submit {
+  display: block;
+  border: none;
+  width: 200px;
+  padding: 15px 15px;
+  background-color: var(--header-bg-color);
+  color: white;
+  cursor: pointer;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+}

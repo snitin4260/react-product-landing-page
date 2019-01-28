@@ -15,7 +15,7 @@ const ToolBar = props => {
         <div className={styles["toolbar__navigation-items"]}>
           <ul>
             <li>
-              <a href="/">Features</a>
+              <a href="#features">Features</a>
             </li>
             <li>
               <a href="/">Latest Books</a>

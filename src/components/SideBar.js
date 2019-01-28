@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SideBar = props => {
   let sideBarClasses = styles.sidebar;
   if (props.show) sideBarClasses = `${styles.sidebar} ${styles.open}`;
-
   return (
     <div className={sideBarClasses}>
       <ul>
@@ -12,7 +11,7 @@ const SideBar = props => {
           <FontAwesomeIcon icon="times" size="2x" color="black" />
         </li>
         <li>
-          <a href="/">Features</a>
+          <a href="#features">Features</a>
         </li>
         <li>
           <a href="/">Latest Books</a>
