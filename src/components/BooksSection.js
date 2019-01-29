@@ -20,7 +20,7 @@ class BooksSection extends React.Component {
 
   render() {
     return (
-      <section className={styles["books-section"]}>
+      <section id="books" className={styles["books-section"]}>
         <h2>Latest Books</h2>
         {!this.state.books ? (
           <Loader />

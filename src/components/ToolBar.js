@@ -18,10 +18,10 @@ const ToolBar = props => {
               <a href="#features">Features</a>
             </li>
             <li>
-              <a href="/">Latest Books</a>
+              <a href="#books">Latest Books</a>
             </li>
             <li>
-              <a href="/">Pricing</a>
+              <a href="#pricing">Pricing</a>
             </li>
           </ul>
         </div>

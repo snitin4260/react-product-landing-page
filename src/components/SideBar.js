@@ -10,14 +10,14 @@ const SideBar = props => {
         <li className={styles["close-icon"]} onClick={props.onCloseButtonClick}>
           <FontAwesomeIcon icon="times" size="2x" color="black" />
         </li>
-        <li>
+        <li onClick={props.onCloseButtonClick}>
           <a href="#features">Features</a>
         </li>
-        <li>
-          <a href="/">Latest Books</a>
+        <li onClick={props.onCloseButtonClick}>
+          <a href="#books">Latest Books</a>
         </li>
-        <li>
-          <a href="/">Pricing</a>
+        <li onClick={props.onCloseButtonClick}>
+          <a href="#pricing">Pricing</a>
         </li>
       </ul>
     </div>
