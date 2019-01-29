@@ -1,7 +1,7 @@
 import React from "react";
 import ProductFeatures from "./ProductFeatures";
 import EmailForm from "./EmailForm";
-import Books from "./Books";
+import BooksSection from "./BooksSection";
 import styles from "./Main.module.css";
 
 class Main extends React.Component {
@@ -10,7 +10,7 @@ class Main extends React.Component {
       <main className={styles.main}>
         <ProductFeatures />
         <EmailForm />
-        <Books />
+        <BooksSection />
       </main>
     );
   }

@@ -7,7 +7,7 @@ const SideBar = props => {
   return (
     <div className={sideBarClasses}>
       <ul>
-        <li onClick={props.onCloseButtonClick}>
+        <li className={styles["close-icon"]} onClick={props.onCloseButtonClick}>
           <FontAwesomeIcon icon="times" size="2x" color="black" />
         </li>
         <li>

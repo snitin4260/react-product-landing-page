@@ -1,0 +1,28 @@
+.list_image {
+  width: 150px;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.list_item {
+  display: flex;
+  flex-direction: row;
+  font-family: "Slabo 27px", serif;
+  box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.38);
+}
+
+.list_item p {
+  font-size: 1.6rem;
+}
+.list_item-right {
+  padding-left: 10px;
+  padding-right: 2px;
+}
+
+.list_author {
+  font-style: italic;
+}
+.list_title {
+  font-weight: 900;
+}

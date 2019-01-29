@@ -1,0 +1,16 @@
+.list {
+  margin-bottom: 3rem;
+}
+
+.list_name {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.list_grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-auto-rows: 200px;
+  grid-gap: 15px 20px;
+  justify-content: center;
+}
