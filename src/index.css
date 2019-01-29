@@ -11,6 +11,8 @@
 html,
 body {
   margin: 0;
+  /* add animated scroll */
+  scroll-behavior: smooth;
 }
 
 *,
