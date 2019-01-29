@@ -2,6 +2,8 @@ import React from "react";
 import ProductFeatures from "./ProductFeatures";
 import EmailForm from "./EmailForm";
 import BooksSection from "./BooksSection";
+import Pricing from "./Pricing";
+import Video from "./Video";
 import styles from "./Main.module.css";
 
 class Main extends React.Component {
@@ -11,6 +13,8 @@ class Main extends React.Component {
         <ProductFeatures />
         <EmailForm />
         <BooksSection />
+        <Pricing />
+        <Video />
       </main>
     );
   }

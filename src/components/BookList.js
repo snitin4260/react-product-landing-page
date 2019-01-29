@@ -4,7 +4,6 @@ import styles from "./BookList.module.css";
 
 const BookList = props => {
   let booklist = props.books;
-  console.log(booklist);
 
   return (
     <div className={styles.list}>

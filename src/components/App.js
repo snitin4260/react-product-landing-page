@@ -3,6 +3,7 @@ import ToolBar from "./ToolBar";
 import SideBar from "./SideBar";
 import Backdrop from "./Backdrop";
 import Main from "./Main";
+import Footer from "./Footer";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -40,6 +41,7 @@ class App extends React.Component {
         )}
 
         <Main />
+        <Footer />
       </div>
     );
   }
